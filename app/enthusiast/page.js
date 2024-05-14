@@ -3,7 +3,8 @@ import { useRouter } from "next/navigation";
 function Enthusiast() {
   const route = new useRouter(); const next = () => route.push("/intermidiate")
   return (
-    <div className="flex flex-col gap-32">
+    <div className="flex flex-col gap-32 items-center">
+      <h1 className='mt-6 text-[70px]'>Enthusiast</h1>
       <div className="container flex gap-10 ">
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
