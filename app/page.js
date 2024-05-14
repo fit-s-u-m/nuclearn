@@ -2,6 +2,10 @@
 import { useEffect } from 'react';
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
+import Expert from "./expert";
+import Intermidiate from "./intermidiate";
+import Enthusiast from "./entusiast";
+import Beginner from "./beginner";
 
 
 export default function Home() {
@@ -45,7 +49,6 @@ export default function Home() {
         </div>
         <div className="diff-resizer" id="diff-resizer"></div>
       </div>
-
     </>
   )
 }
