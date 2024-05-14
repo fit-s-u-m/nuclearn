@@ -60,7 +60,7 @@ const calc_level = (score) => {
     case (score >= number_of_question * .9):
       return "Expert";
     case (score >= number_of_question * 0.7):
-      return "Intermediate";
+      return "Intermidiate";
     case (score >= number_of_question * 0.4):
       return "Enthusiast";
     default:
