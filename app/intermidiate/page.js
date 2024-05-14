@@ -37,7 +37,7 @@ function Intermidiate() {
           <div className="card-body items-center text-center">
             <h2 className="card-title">Argonne National Laboratory</h2>
             <p>
-              One of the world's great scientific destinations, Argonne offers...
+              One of the world&#39;s great scientific destinations, Argonne offers...
             </p>
             <div className="card-actions">
               <a
