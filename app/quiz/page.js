@@ -34,7 +34,7 @@ const calc_level = (score) => {
     case (score >= number_of_question * 0.5):
       return "Enthusiast";
     default:
-      return "Biginner";
+      return "Beginner";
   }
 }
 export default function Home() {

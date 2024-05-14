@@ -2,10 +2,6 @@
 import { useEffect } from 'react';
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-import Expert from "./expert";
-import Intermidiate from "./intermidiate";
-import Enthusiast from "./entusiast";
-import Beginner from "./beginner";
 
 
 export default function Home() {
@@ -13,7 +9,7 @@ export default function Home() {
   useEffect(() => {
     const onResize = item => {
       let item_width = item[0].contentRect.width;
-      if (item_width > window.innerWidth - 100) {
+      if (item_width > window.innerWidth - 150) {
         router.push('/level')
       }
     }
@@ -33,7 +29,7 @@ export default function Home() {
       <div className="diff aspect-[16/9]">
         <div className="diff-item-1">
           <Image
-            src="/with_out_nuclear.jpeg"
+            src="/2.png"
             width={500}
             height={500}
             alt="With nucler plant"
@@ -41,7 +37,7 @@ export default function Home() {
         </div>
         <div className="diff-item-2">
           <Image
-            src="/with_nuclear.jpeg"
+            src="/1.png"
             width={500}
             height={500}
             alt="with out nuclear plant"

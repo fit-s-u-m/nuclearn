@@ -1,24 +1,24 @@
-"use client"
+"use client";
 import { useRouter } from "next/navigation";
-function Enthusiast() {
-  const route = new useRouter(); const next = () => route.push("/intermidiate")
+function Intermidiate() {
+  const route = new useRouter(); const next = () => route.push("/expert")
   return (
     <div className="flex flex-col gap-32">
       <div className="container flex gap-10 ">
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
             <img
-              src="https://ocw.mit.edu/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/64a937e4f745ca4557288943eac0cec7_22-01f16.jpg"
+              src="https://ocw.mit.edu/courses/22-312-engineering-of-nuclear-reactors-fall-2015/c44a93b7289721d920ea7d7be5f44db2_22-312f15.jpg"
               alt="MIT OCW"
               className="rounded-xl w-full"
             />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">MIT OCW</h2>
-            <p>Introduction To Nuclear Engineering And Ionizing Radiation</p>
+            <p>Engineering of Nuclear Reactors</p>
             <div className="card-actions">
               <a
-                href="https://ocw.mit.edu/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/"
+                href="https://ocw.mit.edu/search/?q=Nuclear+Engineering+Courses"
                 className="btn btn-accent btn-outline"
               >
                 Learn More
@@ -26,22 +26,22 @@ function Enthusiast() {
             </div>
           </div>
         </div>
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
             <img
-              src="https://i.ytimg.com/vi/R7WPEYGr1Vs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAA-jn4qUqxge10ca2iRHyUoTt5Sw"
-              alt="TED-ED"
+              src="https://yt3.googleusercontent.com/8pI0p8Pzt82Wk9lvYeEQzUeqj2yGme1FNskfE7RxvVPnn6ttVCrO7jwSaFwUx7qj69c4oHt0Kw=s120-c-k-c0x00ffffff-no-rj"
+              alt="Argonne National Laboratory"
               className="rounded-xl w-full"
             />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">TED-ED</h2>
+            <h2 className="card-title">Argonne National Laboratory</h2>
             <p>
-              How do nuclear power plants work? - M. V. Ramana and Sajan Saini
+              One of the world's great scientific destinations, Argonne offers...
             </p>
             <div className="card-actions">
               <a
-                href="https://www.youtube.com/watch?v=R7WPEYGr1Vs"
+                href="https://www.youtube.com/@ArgonneLab"
                 className="btn btn-accent btn-outline"
               >
                 Learn More
@@ -52,38 +52,38 @@ function Enthusiast() {
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
             <img
-              src="https://world-nuclear.org/images/articles/e186406f-a2aa-4377-b3c3-6aecc4660344.jpg"
+              src="https://www.iaea.org/sites/default/files/styles/portrait_thumbnail_100x140/public/24/04/p15195-sti-doc-010-1003_cov_250px_0.png?itok=f88piDMg"
+              alt="IAEA"
+              className="rounded-xl w-full"
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">IAEA</h2>
+            <p>International Atomic Energy Agency</p>
+            <div className="card-actions">
+              <a
+                href="https://www.iaea.org/publications/search/type/technical-reports-series"
+                className="btn btn-accent btn-outline"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card  card-compact w-96 bg-base-100 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img
+              src="https://world-nuclear.org/images/articles/035234b0-8fde-4739-b9d0-e32c112c3cea.jpg"
               alt="World Nuclear Association"
               className="rounded-xl w-full"
             />
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">World Nuclear Association</h2>
-            <p>World Nuclear Performance Report 2023</p>
+            <p>Safety of Nuclear Power Reactors</p>
             <div className="card-actions">
               <a
-                href="https://world-nuclear.org/our-association/publications/global-trends-reports/world-nuclear-performance-report-2023"
-                className="btn btn-accent btn-outline"
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-          <figure className="px-10 pt-10">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3CNY-L4xxX7byq0Ogy_SMJbST69akc18RrPw9RoP5FLPa3N-"
-              alt="Council on Foreign Relations"
-              className="rounded-xl w-full"
-            />
-          </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">Council on Foreign Relations</h2>
-            <p>Energy and Environment - Nuclear Energy</p>
-            <div className="card-actions">
-              <a
-                href="https://www.cfr.org/energy-and-environment/nuclear-energy"
+                href="https://world-nuclear.org/Information-Library/Safety-and-Security/Safety-of-plants/Safety-of-Nuclear-Power-Reactors"
                 className="btn btn-accent btn-outline"
               >
                 Learn More
@@ -97,4 +97,4 @@ function Enthusiast() {
   );
 }
 
-export default Enthusiast;
+export default Intermidiate;

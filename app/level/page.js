@@ -4,13 +4,13 @@ import { useRouter } from 'next/navigation'
 export default function Home() {
   const router = useRouter()
   const go_to_biginner = () => {
-    router.push("/biginner")
+    router.push("/beginner")
   }
   const go_to_enthusiast = () => {
     router.push("/enthusiast")
   }
   const go_to_itermidiate = () => {
-    router.push("/itermidiate")
+    router.push("/intermidiate")
   }
   const go_to_expert = () => {
     router.push("/expert")
