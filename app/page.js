@@ -29,9 +29,10 @@ export default function Home() {
       <div className="diff aspect-[16/9]">
         <div className="diff-item-1">
           <Image
-            src="/2.png"
+            src="/with_out_nuclear.jpeg"
             width={500}
             height={500}
+            // className='object-contain'
             alt="With nucler plant"
           />
         </div>
