@@ -49,7 +49,7 @@ const questions = [
     correctAnswer: "c) Plutonium"
   },
   {
-    question: "Q4",
+    question: "10. What is the primary challenge associated with nuclear waste management?",
     answers: ["a) Finding suitable disposal sites", "b) Minimizing radiation exposure", "c) Preventing nuclear proliferation", "d) Ensuring reactor safety"],
     correctAnswer: "a) Finding suitable disposal sites"
   },
