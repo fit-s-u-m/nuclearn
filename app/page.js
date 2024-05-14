@@ -1,16 +1,16 @@
 "use client";
 import { useEffect } from 'react';
 import Image from 'next/image'
-// import { redirect } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 
 
 export default function Home() {
+  const router = useRouter()
   useEffect(() => {
     const onResize = item => {
       let item_width = item[0].contentRect.width;
       if (item_width > window.innerWidth - 100) {
-        window.location.href = "http://localhost:3000/level"
-        // redirect('/level')
+        router.push('/level')
       }
     }
     if (typeof document !== 'undefined') {
@@ -45,9 +45,6 @@ export default function Home() {
         </div>
         <div className="diff-resizer" id="diff-resizer"></div>
       </div>
-
-      <button className="btn btn-accent"> Start
-      </button>
 
     </>
   )
