@@ -57,11 +57,11 @@ const questions = [
 const calc_level = (score) => {
   let number_of_question = questions.length - 1
   switch (true) {
-    case (score === number_of_question):
+    case (score >= number_of_question * .9):
       return "Expert";
-    case (score >= number_of_question * 0.75):
+    case (score >= number_of_question * 0.7):
       return "Intermediate";
-    case (score >= number_of_question * 0.5):
+    case (score >= number_of_question * 0.4):
       return "Enthusiast";
     default:
       return "Beginner";
